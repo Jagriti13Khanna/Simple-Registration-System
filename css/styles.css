@@ -1,0 +1,137 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    /* border: 3px solid grey; */
+
+}
+
+header,
+nav,
+form,
+footer {
+    border: 3px solid grey;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    background-color: mistyrose;
+}
+
+header {
+    text-align: center;
+    color: rgb(7, 8, 94);
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.6rem;
+    align-items: center;
+    white-space: nowrap;
+}
+
+li {
+    flex-basis: 33.33%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+a:hover {
+    background-color:darkseagreen;
+    color: midnightblue;
+}
+
+p{
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* justify-content: flex-end; */
+}
+
+label {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-basis: 40%;
+}
+
+input,
+#petType {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    /* background-color: rgba(162, 218, 171, 0.493);  */
+    border: 1px solid lightgrey;
+    flex-basis: 80%;
+}
+
+input:focus {
+    background-color: rgba(173, 216, 230, 0.719);
+    /* border: 3px solid rgb(3, 3, 70); */
+}
+
+input[type=submit] {
+    margin: 1.5rem 1rem;
+    background-color: rgba(18, 108, 138, 0.719);
+    height: 4rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.msg-bad {
+    margin: 1rem 0rem;
+    color: red;
+    /* font-weight: bold; */
+    font-size: 1rem;
+}
+
+.msg-good {
+    margin: 1rem 0rem;
+    color: rgb(7, 68, 7);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(125, 187, 125, 0.555);
+    padding: 1rem 0.5rem;
+    border: 1.5px solid rgb(7, 68, 7);
+}
+
+.registrant {
+    border: 3px solid grey;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    background-color: mistyrose;
+}
+
+.petname,
+.pet-type,
+.phone,
+.time {
+    font-size: 1.5rem;
+}
+
+.ownername,
+.time {
+    font-weight: bold;
+}
+
+.ownername {
+    font-size: 1.8rem; 
+}
